@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ucuncusayfa"
+    android:background="#00bcd4">
+
+    <Button
+        android:id="@+id/buttun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00bcd4"
+        android:text="MENU"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="3dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.finalapp.ilk"
+        android:layout_width="match_parent"
+        android:layout_height="605dp"
+        tools:layout="@layout/fragment_ilk" />
+
+</LinearLayout>
